@@ -1,5 +1,2 @@
 {{outlet}}
-{{#each model as |exercise|}}
-  <h2>{{exercise.name}}</h2>
-  <p>{{exercise.description}}</p>
-{{/each}}
+{{exercise-list exercises=model}}
