@@ -1,4 +1,5 @@
 import Ember from 'ember';
+const { Route } = Ember;
 
 let exercises = [
   {
@@ -13,7 +14,7 @@ let exercises = [
   }
 ];
 
-export default Ember.Route.extend({
+export default Route.extend({
   model() {
     return exercises;
   }
